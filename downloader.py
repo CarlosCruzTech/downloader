@@ -103,6 +103,7 @@ def baixar(url, pasta, qualidade, so_audio, ao_progresso):
             opcoes["format"] = f"bv*[height<={altura}]+ba/b[height<={altura}]/bv*+ba/b"
         else:
             opcoes["format"] = "bv*+ba/b"
+        opcoes["format_sort"] = ["vcodec:h264", "res", "acodec:aac"]
         opcoes["merge_output_format"] = "mp4"
     else:
         opcoes["format"] = "b/best"
