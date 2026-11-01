@@ -1,0 +1,5 @@
+cookies.txt
+config.json
+downloader.log*
+.venv/
+__pycache__/
