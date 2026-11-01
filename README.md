@@ -32,7 +32,7 @@ winget install Gyan.FFmpeg
 ## Instalação
 
 ```
-git clone https://github.com/caducruzpy/downloader.git
+git clone https://github.com/CarlosCruzTech/downloader.git
 cd downloader
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
